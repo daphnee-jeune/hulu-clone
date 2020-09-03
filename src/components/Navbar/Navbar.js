@@ -14,6 +14,7 @@ const Navbar = ({ setSelectedOption }) => {
             <h2 onClick={() => setSelectedOption(requests.fetchTrending)}>Mystery</h2>
             <h2 onClick={() => setSelectedOption(requests.fetchSciFi)}>Sci-fi</h2>
             <h2 onClick={() => setSelectedOption(requests.fetchWestern)}>Western</h2>
+            <h2 onClick={() => setSelectedOption(requests.fetchAnimation)}>Animation</h2>
             <h2 onClick={() => setSelectedOption(requests.fetchTV)}>Movie</h2>
         </div>
     )
